@@ -1,0 +1,54 @@
+body {
+  font-family: sans-serif;
+  color: #666;
+}
+input {
+  border-radius: 5px;
+  border: none;
+  padding: 6px 16px;
+}
+button {
+  border-radius: 5px;
+  border: none;
+  padding: 6px 16px;
+  margin: 0px 2px;
+}
+button:hover {
+  background-color: aqua;
+  color: #fff;
+  cursor: pointer;
+}
+.input-area {
+  background-color: aqua;
+  width: 400px;
+  margin: 8px;
+}
+.incomplete-area {
+  border: 2px solid #aacfd0;
+  width: 400px;
+  min-height: 200px;
+  padding: 8px;
+  border-radius: 5px;
+  margin: 8px;
+}
+.complete-area {
+  border: 2px solid #aacfd0;
+  width: 400px;
+  min-height: 200px;
+  padding: 8px;
+  border-radius: 5px;
+  margin: 8px;
+  background-color: aquamarine;
+}
+.title {
+  text-align: center;
+  margin-top: 0px;
+  font-weight: bold;
+}
+.list-row {
+  display: flex;
+  align-items: center;
+}
+.todo-item {
+  margin: 6px;
+}
